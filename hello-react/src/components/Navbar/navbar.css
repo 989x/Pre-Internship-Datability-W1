@@ -1,0 +1,28 @@
+.logo {
+    max-width: 30px;
+}
+
+.container {
+    height: 60px;
+    padding: 0px 50px;
+    background-color: #4074ec;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+
+    font-weight: 900;
+}
+
+.list {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+  
+.listItem {
+    margin: 20px;
+    font-weight: 500;
+}
