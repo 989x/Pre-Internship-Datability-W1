@@ -46,10 +46,10 @@ const SecTwo = () => {
                     <div>
                         <div className="spacesectwo">
                             <div className="text1">
-                                ข้อควรระวัง :
+                                ความต้องการพิเศษของผู้ป่วย :
                             </div>
                             <div className="text2">
-                                (Precaution)
+                                (Special needs)
                             </div>
                         </div>
                     </div>
@@ -60,10 +60,10 @@ const SecTwo = () => {
                     <div>
                         <div className="spacesectwo">
                             <div className="text1">
-                                ข้อควรระวัง :
+                                หากมีข้อเสนอแนะเพิ่มเติมสามารถติดต่อหัวหน้าแผนก :
                             </div>
                             <div className="text2">
-                                (Precaution)
+                                (For any commnet please contact of department)
                             </div>
                         </div>
                     </div>
@@ -74,10 +74,10 @@ const SecTwo = () => {
                     <div>
                         <div className="spacesectwo">
                             <div className="text1">
-                                ข้อควรระวัง :
+                                คำถามที่ต้องการถามแพทย์ :
                             </div>
                             <div className="text2">
-                                (Precaution)
+                                (Any question ask your doctor)
                             </div>
                         </div>
                     </div>

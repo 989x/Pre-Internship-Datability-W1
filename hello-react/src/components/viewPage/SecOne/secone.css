@@ -51,10 +51,16 @@
 
 .boxsecone {
     background-color: whitesmoke;
-    width: 100%;
+    width: 70%;
     font-weight: 900;
     font-size: medium;
-    padding:10px;
+    letter-spacing: 1.25px;
+
+    padding-left: 20px;
+
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border:0;
     font-family: 'Kanit', sans-serif;
 
@@ -65,19 +71,19 @@
 
 .part2-1 {
     padding-left: 2rem;
-    padding-left: 2rem;
+
 }
 
 .part2-1-2 {
     background-color: #6894f4;
     text-align: center;
     color:white;
-    max-width: 71%;
+    max-width: 55%;
     border-radius: 0.5rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* ----------------------------------- */
@@ -85,13 +91,13 @@
 .part2-2 {
     padding-top: 1rem;
     padding-bottom: 0.5rem;
-    padding-left: 11.5%;
-    padding-right: 28%;
+    padding-left: 10%;
+    padding-right: 26%;
 }
 
 .part2-2-1 {
     text-align: center;
-    max-width: 320px;
+    max-width: 330px;
     border-radius: 0.5rem;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -103,24 +109,13 @@
 
 .part3 {
     padding-left: 2rem;
-    padding-right: 2rem;
-}
-
-.part2-3-1 {
-    background-color: #6894f4;
-    text-align: center;
-    color:white;
-    max-width: 320px;
-    border-radius: 0.5rem;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 25%;
 }
 
 .part4 {
+    padding-top: 1%;
     padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right: 25%;
 }
 
 
@@ -130,12 +125,17 @@
     color: #3b76ef;
     font-size: larger;
     font-weight: bolder;
+
+    
+    letter-spacing: 1.25px;
 }
 
 .text2 {
     font-size: medium;
     font-weight: lighter;
     color: gray;
+
+    letter-spacing: 1.25px;
 }
 
 .text3 {
@@ -143,9 +143,9 @@
 }
 
 .noHurt {
-    max-width: 82%;
+    max-width: 100%;
 }
 
 .graph {
-    max-width: 84%;
+    max-width: 100%;
 }

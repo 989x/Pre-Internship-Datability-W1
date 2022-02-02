@@ -1,4 +1,3 @@
-// import './views';
 import SecOne from '../components/viewPage/SecOne';
 import SecTwo from '../components/viewPage/SecTwo';
 

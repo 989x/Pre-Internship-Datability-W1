@@ -45,38 +45,7 @@ const SecOne = () => {
                                     <input className="boxsecone" placeholder="ดูแล"></input>
                                 </div> 
                             </div>
-                            {/* <div className="grid-container">
-                                <div class="item1">
-                                    <div className="text1">วันที่ :</div>
-                                    <div className="text2">(Date)</div>
-                                </div>
 
-                                <div class="item2">
-                                    <input placeholder="10 มกราคม 2565"></input>
-                                </div>                        
-                            </div>
-
-                            <div className="grid-container">
-                                <div class="item1">
-                                    <div className="text1">พยาบาลผู้ดูแล : </div>
-                                    <div className="text2">(Change nurser)</div>
-                                </div>
-
-                                <div class="item2">
-                                    <input placeholder="10 มกราคม 2565"></input>
-                                </div>                        
-                            </div>
-
-                            <div className="grid-container">
-                                <div class="item1">
-                                    <div className="text1">เป้าหมายวันนี้ : </div>
-                                    <div className="text2">(Goals for today)</div>
-                                </div>
-
-                                <div class="item2">
-                                    <input placeholder="10 มกราคม 2565"></input>
-                                </div>                        
-                            </div> */}
                         </div>
 
                     </div>
