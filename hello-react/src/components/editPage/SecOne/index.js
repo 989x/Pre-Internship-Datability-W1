@@ -1,7 +1,7 @@
-import './secone.css';
-import noHurt from '../../img/noHurt.svg'
+import '../edit.css'
 
-import graph from '../../img/graph.svg'
+import noHurt from '../../../img/noHurt.svg'
+import graph from '../../../img/graph.svg'
 
 const SecOne = () => {
     return (
@@ -36,13 +36,13 @@ const SecOne = () => {
 
                             <div>
                                 <div class="item2">
-                                    <input className="boxsecone" placeholder="10 มกราคม 2565"></input>
+                                    <input className="boxEdit" placeholder="10 มกราคม 2565"></input>
                                 </div>  
                                 <div class="item2">
-                                    <input className="boxsecone" placeholder="อริสา งามสะอาด"></input>
+                                    <input className="boxEdit" placeholder="อริสา งามสะอาด"></input>
                                 </div>  
                                 <div class="item2">
-                                    <input className="boxsecone" placeholder="ดูแล"></input>
+                                    <input className="boxEdit" placeholder="ดูแล"></input>
                                 </div> 
                             </div>
                             {/* <div className="grid-container">

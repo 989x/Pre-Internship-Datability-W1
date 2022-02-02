@@ -1,0 +1,49 @@
+.buttonRed {
+    background-color: red;
+    border: 0px;
+    color: white; /* /* display: flex; */
+    border-radius: 4px;
+
+    padding: 8px 18px;
+    opacity: 0.9;
+
+    font-family: 'Kanit', sans-serif;
+}
+
+.buttonGreen {
+    background-color: green;
+    border: 0px;
+    color: white; /* /* display: flex; */
+    border-radius: 4px;
+
+    padding: 8px 18px;
+    opacity: 0.9;
+
+    font-family: 'Kanit', sans-serif;
+}
+
+.boxEdit {
+    background-color: whitesmoke;
+    width: 100%;
+    font-weight: 900;
+    font-size: medium;
+    padding:10px;
+    border:0;
+    font-family: 'Kanit', sans-serif;
+}
+
+.boxEditTwo {
+    width: 100%;
+    height: 4rem;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border:0;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+
+    font-weight: 500;
+    font-size: medium;
+    font-family: 'Kanit', sans-serif;
+}

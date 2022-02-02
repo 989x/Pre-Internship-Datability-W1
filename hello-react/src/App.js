@@ -1,23 +1,23 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import SecOne from './components/SecOne';
-import SecTwo from './components/SecTwo';
+// import SecOne from './components/SecOne';
+// import SecTwo from './components/SecTwo';
+
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+
+import View from "./pages/view";
+import Edit from './pages/Edit';
+
 
 function App() {
   return (
-    <div className="App">
-      
+    <Router>
       <Navbar/>
-
-        <div className="app-grid">
-          <SecOne/>
-          <SecTwo/>   
-
-        </div>
-
-
-      
-    </div>
+        <Routes>
+          <Route path="/" element={<View />} />
+          <Route path="/edit" element={<Edit />} />
+        </Routes>
+    </Router>
   );
 }
 
