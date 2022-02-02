@@ -1,4 +1,4 @@
-import profile from './profile.png'
+import profile from '../../img/profile.png';
 import './navbar.css';
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="item">
                 <ul className="list">
                     <li className="listItem">Menu</li>
-                    <li className="listItem">น.ส.สาวสวย ส้มตำอร่อยดี</li>
+                    <li className="listItem">พย. สาวสวย ส้มตำอร่อยดี</li>
                     <img src={profile} className="logo" fill="#FFFFFF" />
                 </ul>
             </div>

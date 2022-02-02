@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import secone from './components/sections/secone';
+import SecOne from './components/SecOne';
+import SecTwo from './components/SecTwo';
 
 function App() {
   return (
@@ -8,11 +9,12 @@ function App() {
       
       <Navbar/>
 
-        <div className="grid">
+        <div className="app-grid">
+          <SecOne/>
+          <SecTwo/>   
 
         </div>
 
-        <secone/>      
 
       
     </div>
