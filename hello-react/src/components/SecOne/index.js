@@ -2,7 +2,6 @@ import './secone.css';
 import noHurt from '../../img/noHurt.svg'
 
 import graph from '../../img/graph.svg'
-// import moduleNameww from '../../../public/images/image.svg'
 
 const SecOne = () => {
     return (
@@ -37,13 +36,13 @@ const SecOne = () => {
 
                             <div>
                                 <div class="item2">
-                                    <input placeholder="10 มกราคม 2565"></input>
+                                    <input className="boxsecone" placeholder="10 มกราคม 2565"></input>
                                 </div>  
                                 <div class="item2">
-                                    <input placeholder="อริสา งามสะอาด"></input>
+                                    <input className="boxsecone" placeholder="อริสา งามสะอาด"></input>
                                 </div>  
                                 <div class="item2">
-                                    <input placeholder="ดูแล"></input>
+                                    <input className="boxsecone" placeholder="ดูแล"></input>
                                 </div> 
                             </div>
                             {/* <div className="grid-container">
@@ -82,7 +81,7 @@ const SecOne = () => {
 
                     </div>
                     
-{/* ----------------------------------- ----------------------------------- -----------------------------------  */}
+    {/* ----------------------------------- ----------------------------------- -----------------------------------  */}
 
                     <div className="part2">
 
@@ -99,16 +98,16 @@ const SecOne = () => {
 
                         <div className="part2-2">
                             <div className="part2-2-1">
-                                <div className="part2-2-2">
-                                    ระดับความเจ็บปวด
+                                <div className="text1">
+                                    ระดับคะแนนความเจ็บปวด
                                 </div>
-                                <div className="part2-2-3">
+                                <div className="text2">
                                     ( Wong-Baker FACES Pain Rating Scale )
                                 </div>
                             </div>
                         </div>
 
-{/* ----------------------------------- ----------------------------------- -----------------------------------  */}
+    {/* ----------------------------------- ----------------------------------- -----------------------------------  */}
 
                         <div className="part3">
                             <img src={noHurt} className="noHurt"/>

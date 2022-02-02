@@ -1,0 +1,84 @@
+.conatinerSec2 {
+    padding-top: 30px;
+    padding-right: 5rem;
+}
+
+.parts1 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.parts1-1 {
+    background-color: white;
+    border: 1px solid gray;
+    color: black; /* /* display: flex; */
+    border-radius: 4px;
+    font-size: small;
+
+    padding: 8px 18px;
+    opacity: 0.7;
+
+    font-family: 'Kanit', sans-serif;
+}
+
+.part1-1:hover {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        font-size: 14px;
+        color: #f00;
+        height: 50px;
+        width: 134px;
+        text-decoration: none;
+        font-variant: small-caps;
+        background: #111;
+}
+
+.parts1-2 {
+    background-color: #3b76ef;
+    border: 1px solid gray;
+    color: white; /* /* display: flex; */
+    border-radius: 4px;
+
+    padding: 8px 18px;
+    opacity: 0.9;
+
+    font-family: 'Kanit', sans-serif;
+}
+
+/* ----------------------------------- ----------------------------------- ----------------------------------- */
+
+.parts2 {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    max-width: 260px;
+}
+
+/* ----------------------------------- ----------------------------------- ----------------------------------- */
+
+.spacesectwo {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.boxsectwo {
+    width: 100%;
+    height: 4rem;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border:0;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+
+    font-weight: 500;
+    font-size: medium;
+    font-family: 'Kanit', sans-serif;
+
+    pointer-events: none;
+}
