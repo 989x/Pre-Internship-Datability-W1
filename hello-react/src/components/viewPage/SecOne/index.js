@@ -34,6 +34,7 @@ const SecOne = () => {
                                 </div>
                             </div>
 
+                            //
                             <div>
                                 <div class="item2">
                                     <input className="boxsecone" placeholder="10 มกราคม 2565"></input>
@@ -45,6 +46,7 @@ const SecOne = () => {
                                     <input className="boxsecone" placeholder="ดูแล"></input>
                                 </div> 
                             </div>
+                            //
 
                         </div>
 
@@ -54,24 +56,26 @@ const SecOne = () => {
 
                     <div className="part2">
 
-                        <div className="part2-1">
-                            <div className="part2-1-2">
-                                <div>
-                                    การควบคุมความเจ็บปวดประจำสม่ำเสมอ <br/> คือเป้าหมายของเรา 
-                                </div>
-                                <div className="text3">
-                                    Pain management is our goal always!
+                        <div className="">
+                            <div className="part2-1">
+                                <div className="part2-1-2">
+                                    <div>
+                                        การควบคุมความเจ็บปวดประจำสม่ำเสมอ <br/> คือเป้าหมายของเรา 
+                                    </div>
+                                    <div className="text3">
+                                        Pain management is our goal always!
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="part2-2">
-                            <div className="part2-2-1">
-                                <div className="text1">
-                                    ระดับคะแนนความเจ็บปวด
-                                </div>
-                                <div className="text2">
-                                    ( Wong-Baker FACES Pain Rating Scale )
+                            <div className="part2-2">
+                                <div className="part2-2-1">
+                                    <div className="text1">
+                                        ระดับคะแนนความเจ็บปวด
+                                    </div>
+                                    <div className="text2">
+                                        ( Wong-Baker FACES Pain Rating Scale )
+                                    </div>
                                 </div>
                             </div>
                         </div>

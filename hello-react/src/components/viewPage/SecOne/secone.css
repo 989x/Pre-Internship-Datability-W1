@@ -16,13 +16,12 @@
 
 .between {
     display: grid;
-    grid-template-columns: 0.3fr 0.45fr;
+    grid-template-columns: 0.35fr 0.5fr;
     /* column-gap: 16px;
     row-gap: 16px;
     max-width: 800px; */
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .item1 {
@@ -35,7 +34,6 @@
 }
 
 .grid-container {
-    
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
@@ -78,7 +76,9 @@
     background-color: #6894f4;
     text-align: center;
     color:white;
-    max-width: 55%;
+    max-width: 65%;
+    width: 550px;
+
     border-radius: 0.5rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
@@ -97,12 +97,12 @@
 
 .part2-2-1 {
     text-align: center;
-    max-width: 330px;
+    max-width: 70%;
     border-radius: 0.5rem;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 9%;
+    padding-right: 20%;
 }
 
 /* ----------------------------------- */
@@ -116,6 +116,10 @@
     padding-top: 1%;
     padding-left: 2rem;
     padding-right: 25%;
+}
+
+.space {
+    padding-top: 15%;
 }
 
 
@@ -144,8 +148,210 @@
 
 .noHurt {
     max-width: 100%;
+    width: 580px;
 }
 
 .graph {
     max-width: 100%;
+    width: 600px;
+}
+
+/* ----------------------------------- */
+
+/* ----------------------------------- */
+
+/* ----------------------------------- */
+
+@media screen and (max-width: 1180px) {
+    .conatinerSec {
+        padding-left: 1%;
+    }
+
+    .textHeader {
+        font-size: large;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+
+    .between {
+        display: grid;
+        grid-template-columns: 35% 58%;
+        /* column-gap: 16px;
+        row-gap: 16px;
+        max-width: 800px; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .item1 {
+        /* padding-left: 1rem; */
+        padding-bottom: 0.5rem;
+    }
+    
+    .item2 {
+        padding-bottom: 1rem;
+    }
+
+
+    
+    .boxsecone {
+        width: 65%;
+        font-weight: 500;
+        font-size: small;
+        font-weight: 500;
+        font-size: small;
+    
+        padding-left: 15px;
+    
+        padding-top: 6px;  
+    }
+
+
+
+    .text1 {
+        color: #3b76ef;
+        font-size: medium;
+        font-weight: bolder;
+       
+        letter-spacing: 1px;
+    }
+    
+    .text2 {
+        font-size: small;
+        font-weight: lighter;
+        color: gray;
+    
+        letter-spacing: 1px;
+    }
+
+    /* ----------------------------------- ----------------------------------- ----------------------------------- */
+
+    .part2-1 {
+        padding-left: 2rem;
+
+    }
+
+    .part2-1-2 {
+        max-width: 63%;
+
+        /* background-color: #6894f4;
+        text-align: center;
+        color:white;
+        max-width: 65%;
+        width: 550px;
+
+        border-radius: 0.5rem;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        padding-left: 30px;
+        padding-right: 30px; */
+    }
+
+    /* ----------------------------------- */
+
+    /* .centerContent {
+        display: flex;
+        align-items: center;
+    } */
+
+    .part2-2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .part2-2-1 {
+        text-align: center;
+        max-width: 100%;
+        border-radius: 0.5rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20%;
+    }
+
+    /* ----------------------------------- */
+
+    .part3 {
+        padding-right: 9%;
+    }
+
+    .part4 {
+        padding-right: 7%;
+    }
+
+    /* ----------------------------------- */
+
+    .noHurt {
+        width: 85%;
+    }
+    
+    .graph {
+        width: 85%;
+    }
+
+    .text1 {
+        color: #3b76ef;
+        font-size: medium;
+        font-weight: bold;
+       
+        letter-spacing: 0.25px;
+    }
+    
+    .text2 {
+        font-size: small;
+        font-weight: lighter;
+        color: gray;
+    
+        letter-spacing: 0.25px;
+    }
+
+    
+}
+
+/* ----------------------------------- */
+
+@media screen and (max-width: 850px) { 
+
+    .between {
+
+        grid-template-columns: 40% 65%;
+    }
+
+    .part2-1-2 {
+        max-width: 70%;
+    }
+
+    .part2-2-1 {
+
+        max-width: 100%;
+
+        padding-left: 20%;
+        padding-right: 1%;
+    }
+
+    .noHurt {
+        width: 100%;
+        width: 320px;
+    }
+    
+    .graph {
+        width: 100%;
+        width: 340px;
+    }
+
+}
+
+/* ----------------------------------- */
+
+@media screen and (max-width: 710px) {
+
+    .between {
+        display: grid;
+        grid-template-columns: 40% 70%;
+        /* column-gap: 16px;
+        row-gap: 16px;
+        max-width: 800px; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }

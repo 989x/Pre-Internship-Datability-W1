@@ -84,6 +84,8 @@ const SecTwo = () => {
                     <textarea className="boxsectwo" placeholder="Note"></textarea>
                 </div>
 
+                <div className="space"></div>
+
             </div>
         </div>
     )

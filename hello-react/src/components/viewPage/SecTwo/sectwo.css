@@ -1,6 +1,6 @@
 .conatinerSec2 {
     padding-top: 30px;
-    padding-right: 5rem;
+    padding-right: 1%;
 }
 
 .parts1 {
@@ -8,6 +8,7 @@
     justify-content: flex-end;
     gap: 10px;
     padding-bottom: 1%;
+    padding-right: 13%;
 }
 
 .parts1-1 {
@@ -70,4 +71,71 @@
     font-family: 'Kanit', sans-serif;
 
     pointer-events: none;
+}
+
+/* ----------------------------------- ----------------------------------- ----------------------------------- */
+
+@media screen and (max-width: 1180px) { 
+
+    .conatinerSec2 {
+        padding-right: 2rem;
+        padding-left: -80rem;
+    }
+
+    .parts1 {
+        padding-right: 10%;
+    }
+    
+    .image {
+        max-width: 100%;
+        /* max-width: 60%; */
+
+    }
+
+    .spacesectwo {
+    padding-top: 0.25rem;
+    padding-bottom: 0.5rem;
+    }
+
+    .spacesectwo {
+        padding-top: 0.25rem;
+        padding-bottom: 0.5rem;
+        padding-left: -2rem;
+    }
+
+    .boxsectwo {
+        width: 100%;
+        height: 4rem;
+        padding: 4px 16px;
+
+        letter-spacing: 0.3px;
+        font-weight: 200;
+        font-size: medium;
+
+    }
+        
+}
+
+/* ----------------------------------- ----------------------------------- ----------------------------------- */
+
+@media screen and (max-width: 850px) { 
+    .parts1 {
+        padding-right: 6%;
+    }
+
+    .conatinerSec2 {
+        padding-top: 30px;
+        padding-right: -3%;
+    }
+
+    .conatinerSec2 {
+        padding-right: 1rem;
+        padding-left: -90rem;
+    }
+
+    .spacesectwo {
+        padding-left: -4rem;
+    }
+
+
 }
