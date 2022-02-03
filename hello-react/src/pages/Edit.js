@@ -1,18 +1,18 @@
-import SecOne from '../components/editPage/SecOne';
-import SecTwo from '../components/editPage/SecTwo';
+// import SecOne from '../components/editPage/SecOne';
+// import SecTwo from '../components/editPage/SecTwo';
 
-const Edit = () => {
-    return (
-        <div className="App">
+// const Edit = () => {
+//     return (
+//         <div className="App">
       
-        <div className="app-grid">
-          <SecOne/>
-          <SecTwo/>   
+//         <div className="app-grid">
+//           <SecOne/>
+//           <SecTwo/>   
 
-        </div>
+//         </div>
 
-    </div>
-    )
-}
+//     </div>
+//     )
+// }
 
-export default Edit
+// export default Edit

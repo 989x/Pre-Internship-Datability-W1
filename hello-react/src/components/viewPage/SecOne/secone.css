@@ -65,6 +65,22 @@
     pointer-events: none;
 }
 
+.boxEdit {
+    background-color: whitesmoke;
+    width: 70%;
+    font-weight: 900;
+    font-size: medium;
+    letter-spacing: 1.25px;
+
+    padding-left: 20px;
+
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:0;
+    font-family: 'Kanit', sans-serif;
+}
+
 /* ----------------------------------- ----------------------------------- ----------------------------------- */
 
 .part2-1 {
@@ -204,6 +220,18 @@
         padding-left: 15px;
     
         padding-top: 6px;  
+    }
+
+    .boxEdit {
+        width: 65%;
+        font-weight: 500;
+        font-size: small;
+        font-weight: 500;
+        font-size: small;
+    
+        padding-left: 15px;
+    
+        padding-top: 6px; 
     }
 
 
@@ -355,3 +383,5 @@
     }
 
 }
+
+

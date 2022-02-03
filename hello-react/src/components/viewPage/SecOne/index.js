@@ -3,7 +3,12 @@ import './secone.css';
 import noHurt from '../../../img/noHurt.svg'
 import graph from '../../../img/graph.svg'
 
+import  React,{useState} from 'react';
+import '../SecTwo/index'
+
 const SecOne = () => {
+    const [show,setShow] = useState(true)
+
     return (
         <div>
 
@@ -34,10 +39,14 @@ const SecOne = () => {
                                 </div>
                             </div>
 
-                            //
+                            {/*  */}
                             <div>
                                 <div class="item2">
-                                    <input className="boxsecone" placeholder="10 มกราคม 2565"></input>
+                                    {
+                                        show?   <input className="boxsecone" placeholder="10 มกราคม 2565"></input>
+                                        :   <input className="boxEdit" placeholder="sad 10 มกราคม 2565"></input>
+                                    }
+                                    
                                 </div>  
                                 <div class="item2">
                                     <input className="boxsecone" placeholder="อริสา งามสะอาด"></input>
@@ -46,7 +55,7 @@ const SecOne = () => {
                                     <input className="boxsecone" placeholder="ดูแล"></input>
                                 </div> 
                             </div>
-                            //
+                            {/*  */}
 
                         </div>
 

@@ -8,6 +8,7 @@
     opacity: 0.9;
 
     font-family: 'Kanit', sans-serif;
+
 }
 
 .buttonGreen {
@@ -20,9 +21,12 @@
     opacity: 0.9;
 
     font-family: 'Kanit', sans-serif;
+
+    margin-right: 10px;
+
 }
 
-.boxEdit {
+/* .boxEdit {
     background-color: whitesmoke;
     width: 70%;
     font-weight: 900;
@@ -53,4 +57,4 @@
     font-weight: 500;
     font-size: medium;
     font-family: 'Kanit', sans-serif;
-}
+} */

@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
-import View from "./pages/view";
+import View from "./pages/View";
 import Edit from './pages/Edit';
 
 

@@ -1,27 +1,43 @@
 import './sectwo.css'
-
 import image from '../../../img/image.svg'
 
-import { useNavigate } from "react-router-dom";
+import '../edit.css'
+
+// import { useNavigate } from "react-router-dom";
+
+import  React,{useState} from 'react';
 
 const SecTwo = () => {
-    let navigate = useNavigate();
+    // let navigate = useNavigate();
+
+    const [show,setShow] = useState(true)
+
     return (
         <div>
             <div className="conatinerSec2">
 
                 <div className="parts1">
-                    <button className="parts1-1">
+                    <button 
+                        className="parts1-1"
+                        onClick={() => setShow(!show)}
+                    >
                         ย้อนกลับ
                     </button>
-                    <button 
-                        onClick={() => {
-                            navigate("/edit");
-                        }}
-                        className="parts1-2"
-                    >
-                        แก้ไขข้อมูล
-                    </button>
+
+                    {
+                        show? <button className="parts1-2" onClick={() => setShow(!show)}>แก้ไขข้อมูล</button>
+                        : null
+                    }
+
+                    {
+                        show?   null
+                        :   <div className="">
+                                <button className="buttonGreen">บันทึก</button>
+                                <button className="buttonRed">ผู้ป่วยออก</button>
+                            </div>  
+                        
+                    }
+
                 </div>
 
                 <div className="parts2">
@@ -39,7 +55,12 @@ const SecTwo = () => {
                             </div>
                         </div>
                     </div>
-                    <textarea className="boxsectwo" placeholder="Note"></textarea>
+                    {
+
+                        show?<textarea className="boxsectwo" placeholder="TestNote"></textarea>
+                        :<textarea className="boxEditTwo" placeholder="sadddddddd"></textarea>
+                        
+                    }
                 </div>
 
                 <div className="part3">
@@ -53,7 +74,12 @@ const SecTwo = () => {
                             </div>
                         </div>
                     </div>
-                    <textarea className="boxsectwo" placeholder="Note"></textarea>
+                    {
+
+                    show?<textarea className="boxsectwo" placeholder="TestNote"></textarea>
+                    :<textarea className="boxEditTwo" placeholder="sadddddddd"></textarea>
+
+                    }
                 </div>
 
                 <div className="part3">
@@ -67,7 +93,12 @@ const SecTwo = () => {
                             </div>
                         </div>
                     </div>
-                    <textarea className="boxsectwo" placeholder="Note"></textarea>
+                    {
+
+                    show?<textarea className="boxsectwo" placeholder="TestNote"></textarea>
+                    :<textarea className="boxEditTwo" placeholder="sadddddddd"></textarea>
+
+                    }
                 </div>
 
                 <div className="part3">
@@ -81,13 +112,19 @@ const SecTwo = () => {
                             </div>
                         </div>
                     </div>
-                    <textarea className="boxsectwo" placeholder="Note"></textarea>
+                    {
+
+                    show?<textarea className="boxsectwo" placeholder="TestNote"></textarea>
+                    :<textarea className="boxEditTwo" placeholder="sadddddddd"></textarea>
+
+                    }
                 </div>
 
                 <div className="space"></div>
 
             </div>
         </div>
+    
     )
 }
 
