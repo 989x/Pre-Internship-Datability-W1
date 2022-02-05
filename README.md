@@ -1,5 +1,3 @@
 # Pre-Internship-Datability-W1
 
-### start pro
-
-
+![Preview](https://github.com/SinsamutQ/Pre-Internship-Datability-W1/previews/images/1-view.png)
